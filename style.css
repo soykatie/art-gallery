@@ -1,0 +1,296 @@
+/*Главная*/
+
+@font-face 
+{
+    font-weight: normal;
+    font-family: "Dutch";
+    src: url(fonts/DutchRmWin.ttf); 
+}
+
+@font-face 
+{
+    font-weight: normal;
+    font-family: "Futura";
+    src: url(fonts/FuturaMd.ttf); 
+}
+
+
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: "Dutch";
+
+}
+
+a
+{
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover
+{
+    color: #339999;
+}
+
+h1
+{
+    text-align:center;
+    color: #000000;
+    font-weight: 600;
+    font-size: 60px;
+    font-family: "Futura";
+}
+
+
+#nav 
+{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#nav ul 
+{
+    list-style-type: none;
+}
+
+#nav li 
+{
+    display: inline;
+    margin: 0 100px;
+}
+
+#nav li a 
+{
+    color: #330099;
+    text-decoration: none;
+}
+
+#nav li a:hover 
+{
+    color: #339999;
+    text-decoration: none;
+}
+
+#line-f
+{
+    border: none;
+    height: 5px;
+    color: #339999;
+    background-color: #339999;
+}
+
+#line
+{
+    border: none;
+    height: 3px;
+    color: #339999;
+    background-color: #339999;
+}
+
+#container
+{
+    justify-content: center;
+    vertical-align: middle;
+    padding: 5%;
+}
+
+
+div .icon
+{
+    text-align: left;
+    padding: 25px 0;
+    margin: 0 30px;
+    display: inline-block;
+}
+
+div .text
+{
+   padding: 0 0 0 0;
+   font-size: 25px;
+   width: 70%;
+   display: inline-block;   
+}
+
+img.right
+{
+    float: right;
+    max-width: 0 20px;
+    width: 250px;
+    height: 180px;
+    border: 1px solid #FFFFFF;
+}
+
+p.name
+{
+    font-size: 30px;
+    font-family: "Dutch";
+    font-weight: 600;
+}
+
+a.contact-href
+{
+    font-family: "Futura";
+    font-style: italic; 
+    color: #330099;
+    background-image: linear-gradient(#99CCCC 50%, #99CCCC 50%), linear-gradient(#330099 50%, #330099 50%);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: 0 2px, 100% 2px;
+    padding-bottom: 3px;
+    transition: .5s ease-in-out;
+    
+}
+
+a.contact-href:hover
+{
+    background-size: 100% 2px, 100% 2px;
+    color: #339999;  
+}
+
+a.main-href
+{
+    font-family: "Futura";
+    color: #330099;
+}
+
+a.main-href:hover
+{
+    color: #339999;  
+}
+
+
+/*О художнике | Контакты | Остальные страницы*/
+
+.content div
+{
+    padding-top: 0;
+    padding-bottom:0;
+}
+
+#container-2
+{
+    display: flex;
+    padding-bottom: 10px;
+}
+
+#container-2 div.page
+{
+    flex:4;
+}
+
+#container-2 div.left-a
+{
+    flex:1;
+}
+
+h1.new
+{
+    font-size:  40px;
+    font-family: "Dutch";
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.page div
+{
+    display: flex;
+    padding: 5px 20px 0px 20px;
+    padding-block-start: 10px;
+    padding-bottom: 10px;
+}
+
+.img-p
+{
+    padding-right: 15px;
+}
+
+#icon 
+{
+    display: flex;
+    flex-direction: row;
+    padding-left:20px;
+    padding-top:10px;
+}
+
+.text-p
+{
+    font-size: 25px;
+    font-family: "Dutch";
+    text-align: justify;
+}
+
+.home-a
+{    
+    flex:1;
+    padding: 10px 0 0 10px;
+}
+
+.h-name
+{
+   flex:16;
+   text-align: center;
+   padding-right: 145px;
+}
+
+#right-a
+{
+    opacity:50%;
+    padding: 30px;
+    margin-top: 200px;
+}
+
+#right-a:hover
+{
+    opacity: 100%;
+}
+
+#left-a
+{
+    opacity:50%;
+    padding: 30px;
+    margin-top: 200px;
+}
+
+#left-a:hover
+{
+    opacity: 100%;
+}
+
+#information h1, #information-main h1
+{
+    padding:30px;
+    font-size: 30px;
+    opacity: 100%;
+}
+
+#information-main-3 h1
+{
+    padding-top:40px;
+    padding-bottom: 50px;
+    font-size: 40px;
+    display: block;
+    text-align: center;
+}
+
+.full
+{
+    border: 1px solid #FFFFFF;
+    min-width: 30px;
+    width: 500px;
+    height: 450px;
+    object-fit:cover;
+}
+
+.full-b
+{
+    border: 1px solid #FFFFFF;
+    min-width: 30px;
+    width: 500px;
+    object-fit: cover;
+}
